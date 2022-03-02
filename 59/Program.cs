@@ -7,7 +7,7 @@ void fillArray(int[,] filled)
     {
         for (int j = 0; j < filled.GetLength(1); j++)
         {
-            filled[i, j] = new Random().Next(1, 10);
+            filled[i, j] = new Random().Next(-10, 10);
         }
     }
 }
